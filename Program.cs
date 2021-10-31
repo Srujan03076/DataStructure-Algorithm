@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace DataStructures
 {
@@ -6,7 +7,7 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-          //BinarySearchWord
+            //BinarySearchWord
 
             //Console.WriteLine("Data Structure!");
             //BinarySearchword dataStructure = new BinarySearchword();
@@ -19,27 +20,41 @@ namespace DataStructures
             //else
             //    Console.WriteLine("Word is found at " + result);
 
-          //InsertionSort
+            //InsertionSort
 
             // Console.WriteLine("Data Structure!");
             //string[] names = { "One", "Two", "Four", "Six" };
             //DataStructure dataStructure = new DataStructure();
             //dataStructure.Insertion(names);
 
-         //AnagramDetection
+            //BubbleSort
+
+            // Console.WriteLine("Data Structure!");
+            //Bubblesort dataStructure = new Bubblesort();
+            // dataStructure.BubbleSort();
+
+            //AnagramDetection
+
+            //Console.WriteLine("Data Structure!");
+            //DataStructurealgorithm dataStructure = new DataStructurealgorithm();
+            //dataStructure.Anagrams();
+
+            //NumberOfBinarySearchTree
 
             Console.WriteLine("Data Structure!");
-            DataStructurealgorithm dataStructure = new DataStructurealgorithm();
-            dataStructure.Anagrams();
+            DataStructure<string> dataStructure = new DataStructure<string>();
+            dataStructure.Prime();
+
 
 
 
         }
     }
-
-
-
 }
+
+
+
+
     
 
 
