@@ -6,7 +6,7 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-           //BinarySearchWord
+       //BinarySearchWord
 
             //Console.WriteLine("Data Structure!");
             //BinarySearchword dataStructure = new BinarySearchword();
@@ -19,7 +19,7 @@ namespace DataStructures
             //else
             //    Console.WriteLine("Word is found at " + result);
 
-            //InsertionSort
+        //InsertionSort
 
              Console.WriteLine("Data Structure!");
             string[] names = { "One", "Two", "Four", "Six" };
